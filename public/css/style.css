@@ -1,0 +1,136 @@
+*{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.headImg{
+    /* background-size: cover;  */
+    /* background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+img{
+    width :100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.nameBlock{
+    color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 8rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(6, 8, 6, 0.87),rgba(8, 14, 8, 0.932));
+}
+.name{
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: .5em;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    text-decoration: none;
+    list-style: none;
+    padding: 0%;
+    color: rgba(0, 0, 0, 0.70);
+}
+li a{
+    color: antiquewhite;
+    letter-spacing: .2em;
+    font-size: .8rem;
+}
+li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.before{
+    border-top: .2px solid antiquewhite;
+}
+.head{
+    text-align:center;
+    font-size: 3rem;
+    margin-top: 1.5em;
+    color: rgba(0, 0, 0, 0.70);
+    text-transform: capitalize;
+}
+head:after,
+head:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.after{
+    border-top: .5px solid rgba(10, 8, 6, 0.342);
+}
+.innerContent{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.bird{
+    width: 105%;
+    /* justify-content: flex-start; */
+}
+.genre{
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    font-weight: 100;
+    /* color: rgba(0, 0, 0, 0.50); */
+
+}
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.portrait{
+    width: 60%;
+}
+.nature{
+    width: 60%;
+}
+.bw{
+    width: 38%;
+}
+.monument{
+    width: 40%;
+}
+.wildlife{
+    width: 90%;
+}
+.random{
+    width: 100% ;
+}
+.genre a{
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(rgba(6, 8, 6, 0.87),rgba(8, 14, 8, 0.932));
+}
+.copyright p{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+/* ,url('../images/Landscape2.jpg') */
