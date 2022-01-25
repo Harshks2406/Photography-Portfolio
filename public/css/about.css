@@ -1,5 +1,8 @@
 body{
     margin-top: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0%;
 }
 .start p{
     margin-top: 5%;
@@ -13,14 +16,59 @@ body{
     flex-direction: row;
 }
 .photo{
-    width: 50%;
+    width: 40%;
 }
 .photo img{
-    width: 45%;
-    height: 45%;
+    width:50%;
     height: auto;
     border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 8%;
+    border-image-outset: 0;
+
+}
+.container{
+    margin-top: 8;
+    
+}
+.about{
+    width: 60%;
+    margin-top: 8%;
+
+}
+.aboutGears{
+    margin-top: 10%;
+}
+.gear{
+    margin-top: 8%;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.70);
+    text-transform: capitalize;
     margin-left: 10%;
-    margin-top: 5%;
-    border: 1px solid black;
+}
+.product1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.camera{
+    width: 50%;
+}
+.camera img{
+    width: 40%;
+    margin-left: 22%;
+    margin-top: 8%;
+}
+.aboutCamera{
+    margin-top: 8%;
+}
+.aboutlens{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 50%;
+}
+.lens{
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 15%;
 }
