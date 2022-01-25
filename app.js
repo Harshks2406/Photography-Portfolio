@@ -4,14 +4,20 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 2412;
 const static_Path = path.join(__dirname,'./public');
-const view_path = path.join(__dirname,'public/views');
+const templatepath = path.join(__dirname,'public/templates/views');
+const partialpath = path.join(__dirname,'public/templates/partials');
 
 app.set('view engine','hbs');
-app.set('views',view_path);
+app.set('views',templatepath);
+hbs.registerPartials(partialpath);
 app.use(express.static(static_Path));
 
 app.get("/",(req,res)=>{
     res.render('index.hbs');
+})
+
+app.get("/about",(req,res)=>{
+    res.render('about.hbs');
 })
 
 app.listen(port,()=>{

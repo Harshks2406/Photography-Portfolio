@@ -91,6 +91,9 @@ head:before{
     /* color: rgba(0, 0, 0, 0.50); */
 
 }
+.genre a:hover{
+    color: rgba(0, 0, 0, 0.50);
+}
 p{
     margin-top: 10px;
     font-size: 20px;

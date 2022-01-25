@@ -9,12 +9,17 @@ var path = require('path');
 var app = express();
 var port = process.env.PORT || 2412;
 var static_Path = path.join(__dirname, './public');
-var view_path = path.join(__dirname, 'public/views');
+var templatepath = path.join(__dirname, 'public/templates/views');
+var partialpath = path.join(__dirname, 'public/templates/partials');
 app.set('view engine', 'hbs');
-app.set('views', view_path);
+app.set('views', templatepath);
+hbs.registerPartials(partialpath);
 app.use(express["static"](static_Path));
 app.get("/", function (req, res) {
   res.render('index.hbs');
+});
+app.get("/about", function (req, res) {
+  res.render('about.hbs');
 });
 app.listen(port, function () {
   console.log("Server started on http://localhost:".concat(port));

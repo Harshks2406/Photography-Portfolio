@@ -1,0 +1,26 @@
+body{
+    margin-top: 0%;
+}
+.start p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.70);
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    width: 45%;
+    height: 45%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 1px solid black;
+}
