@@ -45,6 +45,7 @@ li a{
     color: antiquewhite;
     letter-spacing: .2em;
     font-size: .8rem;
+    text-decoration: none;
 }
 li a:hover{
     color: antiquewhite;
@@ -135,5 +136,12 @@ p{
 .copyright p{
     font-size: 1.3em;
     line-height: 1.5;
+}
+.copyright p a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.copyright p a:hover{
+    color: rgba(250, 235, 215, 0.319);
 }
 /* ,url('../images/Landscape2.jpg') */

@@ -20,6 +20,40 @@ app.get("/about",(req,res)=>{
     res.render('about.hbs');
 })
 
+app.get("/photography",(req,res)=>{
+    res.render('about.hbs');
+})
+
+app.get("/contact",(req,res)=>{
+    res.render('about.hbs');
+})
+
+app.get("/bird",(req,res)=>{
+    res.render('bird.hbs');
+})
+
+app.get("/portrait",(req,res)=>{
+    res.render('portrait.hbs');
+})
+
+app.get("/nature",(req,res)=>{
+    res.render('nature.hbs');
+})
+
+app.get("/monument",(req,res)=>{
+    res.render('monument.hbs');
+})
+app.get("/wildlife",(req,res)=>{
+    res.render('wildlife.hbs');
+})
+
+app.get("/BW",(req,res)=>{
+    res.render('BW.hbs');
+})
+app.get("/random",(req,res)=>{
+    res.render('random.hbs');
+})
+
 app.listen(port,()=>{
     console.log(`Server started on http://localhost:${port}`);
 })
