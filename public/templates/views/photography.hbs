@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link defer rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../../css/about.css">
+    <link rel="stylesheet" href="../../css/photography.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Piazzolla:wght@200;300;400;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../images/Logo.png" type="image/png">
 </head>
 <body>
-    
+    <div >
+        {{>nav}}
+    </div>
+    <div class="container">
+        <div class="info"> <p>Photography101</p> </div>
+        <hr class="before">
+    </div>
+    <div class="box">
+        <div class="element"><img src="../../images/exposure.png" alt=""></div>
+    </div>
+     <div class="aboutElement">What is exposure?</div>
+     <div class="answer">
+     When you take a picture, the light from the scene enters the camera and hits the sensor, creating a digital image. Exposure refers to how bright or dark the resulting photo is. <br> <br>
+     Proper exposure is essential for creating high quality, visually appealing photos. When you take a picture, you should always aim for the best possible exposure  so that the picture is not too bright or too dark. <br> <br>
+     If a photo is under-exposed (too dark), detail will be lost in the shadows (darker areas of the image). When a photo is over-exposed (too bright), detail will be lost in the highlights (brighter areas of the image). <br> <br>
+     There are three fundamental elements which control exposure on a digital camera: <b>aperture</b>, <b>shutter speed</b> and <b>ISO</b>. <br> <br>
+     The <b>exposure triangle</b> helps you understand how aperture, shutter speed and ISO work together to determine the exposure. <br> <br>
+     Before learning how to use the exposed triangle, let's take a look at the aperture, shutter speed, and ISO.
+     </div>
+    <div class="aboutElement">Aperture</div>
+    <div class="answer">
+        Aperture refers to the size of the opening in your camera’s lens. When you take a photo, light passes through this opening and reaches the camera’s sensor, creating an image. <br> <br>
+        The aperture of the lens can be set small or large. The small openings allow little light to pass through. The large opening allows a lot of light to pass through. Therefore, the size of the aperture affects the exposure of the image, that is, the brightness and darkness of the image. <br> <br>
+        The aperture is measured at the F stop and is often referred to as the F value. f / 2, f / 8, f / 22, etc. One of the things that people often get confused about is that the higher the f-number, the smaller the aperture. At the 
+        f / 2, the aperture is very large and captures a lot of light, while at the f / 22, the aperture is very small and captures much less light. <br> <br>
+        A large depth of field means that all or most of the image will be in focus whether objects are near or far away. This is perfect for <b>landscape photography</b>. <br> <br>
+        A shallow depth of field means that only part of the image will be in focus and the rest will be blurred. This is perfect for <b>portrait photography</b>.
+
+
+    </div>
+    <div class="aboutElement">Shutter</div>
+    <div class="answer">
+        Shutter speed refers to how long the camera’s sensor is exposed to light when you take a photo. <br> <br>
+        The shutter speed can be set either fast or slow. With a fast shutter speed, the sensor is barely exposed to  light. If the shutter speed is slow, the sensor will be exposed to a lot of light. Therefore, the shutter speed affects the exposure of the image. <br> <br>
+        Shutter speed is measured in seconds or fractions of a second. e.g. 4 seconds, 1 second, 1/60th second, 1/250th second, etc. <br> <br>
+        A 4 second shutter speed is much slower than a 1/250th shutter speed, and lets more light reach the camera’s sensor, resulting in a brighter image. <br> <br>
+        A fast shutter speed will freeze any movement in the scene. This is perfect for sports and action photography. If you’re hand-holding your camera, rather than using a tripod, a fast shutter speed is desirable in order to avoid blurring from camera shake. <br> <br>
+        A slow shutter speed will capture any movement as motion blur. This is used in long exposure photography, for example, to capture a veiling effect on water, light trails at night, or a sense of movement in your image.
+    </div>
+    <div class="aboutElement">ISO</div>
+    <div class="answer">
+        ISO refers to how sensitive your camera’s sensor is to light. Therefore ISO affects the exposure of the image. <br> <br>
+        ISO can be adjusted to make the sensor more or less sensitive to light <br> <br>
+        A low ISO value (e.g. 100 or 200) means low sensitivity to light – which is exactly what’s needed in bright conditions in order to avoid overly-exposed photos. <br> <br>
+        A high ISO value (e.g. 800, 1600 or higher) means a high sensitivity to light. This can help in low-light situations where you need the camera to capture more light for a better-exposed image. <br> <br>
+        Be aware that ISO affects image quality. Shooting at high ISO values can cause your photos to appear grainy. In digital photography we refer to this grain as “noise.” Noise appears in images as random colored pixels, especially in darker areas of an image such as night skies.
+    </div>
+    {{>footer}}
 </body>
 </html>
