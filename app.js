@@ -1,14 +1,18 @@
 const express = require('express');
 const hbs = require('hbs');
+const Query = require('./src/models/query');
 const path = require('path');
 const app = express();
 const port = process.env.PORT || 2412;
+app.use(express.urlencoded({extended: true}))
+require('./src/db/connect')
 const static_Path = path.join(__dirname,'./public');
 const templatepath = path.join(__dirname,'public/templates/views');
 const partialpath = path.join(__dirname,'public/templates/partials');
 
 app.set('view engine','hbs');
 app.set('views',templatepath);
+app.use(express.json());
 hbs.registerPartials(partialpath);
 app.use(express.static(static_Path));
 
@@ -26,6 +30,18 @@ app.get("/photography101",(req,res)=>{
 
 app.get("/contact",(req,res)=>{
     res.render('contact.hbs');
+})
+
+app.post("/contact",async(req,res)=>{
+    try{
+        const queryData = new Query(req.body)
+        console.log(queryData)
+        result = await queryData.save()
+        console.log(result)
+        res.status(201).render("contact")
+    }catch(error){
+        res.status(500).send(error)
+    }
 })
 
 app.get("/bird",(req,res)=>{

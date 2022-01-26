@@ -145,3 +145,11 @@ p{
     color: rgba(250, 235, 215, 0.319);
 }
 /* ,url('../images/Landscape2.jpg') */
+@media(max-width: 998px){
+    .innerContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+}

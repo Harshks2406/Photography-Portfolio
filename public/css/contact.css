@@ -23,10 +23,6 @@ body{
 .email a:hover {
     color: rgba(0, 0, 0, 0.653);
 }
-
-.before{
-    border-top: .2px solid antiquewhite;
-}
 .nav{
     display: block;
 }
