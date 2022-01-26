@@ -20,12 +20,12 @@ app.get("/about",(req,res)=>{
     res.render('about.hbs');
 })
 
-app.get("/photography",(req,res)=>{
-    res.render('about.hbs');
+app.get("/photography101",(req,res)=>{
+    res.render('photography.hbs');
 })
 
 app.get("/contact",(req,res)=>{
-    res.render('about.hbs');
+    res.render('contact.hbs');
 })
 
 app.get("/bird",(req,res)=>{
