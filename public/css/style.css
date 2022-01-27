@@ -3,8 +3,6 @@
     text-transform: uppercase;
 }
 .headImg{
-    /* background-size: cover;  */
-    /* background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
     padding-left: 20px;
     padding-right: 20px;
 } 
@@ -60,11 +58,6 @@ li a:hover{
     margin-top: 1.5em;
     color: rgba(0, 0, 0, 0.70);
     text-transform: capitalize;
-}
-head:after,
-head:before{
-    content:"\00a0\00a0\00a0\00a0\00a0";
-    text-decoration:line-through;
 }
 .content{
     margin-left: 20px;
@@ -146,10 +139,60 @@ p{
 }
 /* ,url('../images/Landscape2.jpg') */
 @media(max-width: 998px){
+    /* Nav */
+    .name{
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+    .nameBlock{
+      height: 6rem;
+    }
+    li a{
+        color: antiquewhite;
+        letter-spacing: .1em;
+        font-size: .6rem;
+        text-decoration: none;
+    }
+    .content{
+        margin-bottom: 5rem;
+    }
+    .head{
+        font-size: 2.5rem;
+    }
     .innerContent{
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .genre{
+        font-size: 3.5rem;
+    }
+
+    .aboutGenre p{
+        font-size: 1rem;
+    }
+
+    .bird{
+        width: 70%;
+        /* justify-content: flex-start; */
+    }
+    .monument{
+        width: 60%;
+    }
+    .bw{
+        width: 60%;
+    }
+    .wildlife{
+        width: 60%;
+    }
+    .random{
+        width: 60% ;
+    }
+    .copyright p{
+        font-size: 1.2em;
+        line-height: 1;
     }
 }

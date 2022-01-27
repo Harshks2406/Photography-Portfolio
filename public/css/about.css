@@ -52,6 +52,11 @@ body{
     flex-direction: row;
     margin-top: 1%;
 }
+.product2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
 .camera{
     width: 50%;
 }
@@ -75,11 +80,59 @@ body{
 }
 
 @media(max-width: 998px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .start p{
+        font-size: 2.5rem;
+    }
     .product1, .container{
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
     }
+    .photo img{
+        width: 10rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .about{
+        margin-top: 2rem;
+        font-size: .9rem;
+    }
+    .gear{
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+    .camera img{
+        width: 8rem;
+    }
+    .aboutCamera{
+        font-size: .9rem;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+
+    }
+    .aboutlens{
+        text-align: right;
+        margin-right: 0;
+        width: auto;
+        font-size: .9rem;
+
+    }
+    .aboutGears{
+        margin-bottom: 8rem;
+    }
+
 }
 

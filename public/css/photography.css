@@ -31,6 +31,7 @@ body{
     margin-right: 20px;
     font-weight: 700;
     margin-top: 5%;
+    font-size: 1.5rem;
 }
 .answer{
     margin-left: 80px;
@@ -38,7 +39,11 @@ body{
     margin-top: 1%;
 }
 .dials{
-    width: 35%;
+    width: 50%;
+}
+
+.dials img{
+    width: 65%;
 }
 .foot{
     margin-top: 15%;
@@ -51,4 +56,40 @@ body{
 }
 .answer .lastDial{
     width: 30%;
+}
+
+@media(max-width: 998px){
+    .info p{
+        font-size: 1.5rem;
+    }
+
+    .last{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        align-content: center;
+        margin-top: 1rem;
+    }
+
+    .dials img{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .aboutElement{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        margin-left: 40px;
+    }
+
+    .element{
+        width: 60%;
+    }
+
+    .answer{
+        font-size: .8rem;
+    }
+    .answer{
+        margin-left: 40px;
+    }
 }
