@@ -96,11 +96,16 @@ body{
         align-items: center;
         align-content: center;
     }
+    .photo{
+        display: flex;
+        justify-content: center;
+    }
     .photo img{
         width: 10rem;
         justify-content: center;
         align-items: center;
         margin-left: 0;
+        padding: 0%;
     }
     .about{
         margin-top: 2rem;
@@ -110,8 +115,16 @@ body{
         margin-left: 1rem;
         font-size: 2.5rem;
     }
+    .camera{
+        display: flex;
+        justify-content: center;
+    }
+    .lens img{
+        padding: 0;
+    }
     .camera img{
         width: 8rem;
+        margin-left: 0%;
     }
     .aboutCamera{
         font-size: .9rem;

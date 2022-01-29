@@ -92,4 +92,13 @@ body{
     .answer{
         margin-left: 40px;
     }
+    .box{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .element img{
+        margin: 0;
+        padding: 0;
+    }
 }
