@@ -196,3 +196,18 @@ p{
         line-height: 1;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 425px){
+    .name{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    .nameBlock{
+      height: 6rem;
+    }
+    li a{
+        color: antiquewhite;
+        letter-spacing: .1em;
+        font-size: .5rem;
+        text-decoration: none;
+    }
+}
