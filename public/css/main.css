@@ -17,7 +17,12 @@ body{
 .before{
     border-top: .2px solid antiquewhite;
 }
-
+.back>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
 .content img{
     justify-content: center;
     align-self: center;

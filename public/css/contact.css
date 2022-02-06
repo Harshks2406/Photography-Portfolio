@@ -60,6 +60,9 @@ button{
 button:hover{
     color: antiquewhite;
 }
+label,input{
+    text-transform:capitalize;
+}
 
 @media(max-width: 998px){
     .contact p{
