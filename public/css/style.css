@@ -1,6 +1,5 @@
 *{
     font-family: 'Montserrat';
-    text-transform: uppercase;
 }
 .headImg{
     padding-left: 20px;
@@ -29,6 +28,7 @@ img{
     line-height: 2;
     letter-spacing: .5em;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 ul{
     display: flex;
@@ -113,6 +113,7 @@ p{
 .genre a{
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
 }
 .copyright{
     display: flex;
