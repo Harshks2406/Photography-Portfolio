@@ -177,20 +177,26 @@ p{
     }
 
     .bird{
-        width: 70%;
+        width: 90%;
         /* justify-content: flex-start; */
     }
-    .monument{
-        width: 60%;
+    .portrait{
+        width: 85%;
+    }
+    .nature{
+        width: 85%;
     }
     .bw{
-        width: 60%;
+        width: 80%;
+    }
+    .monument{
+        width: 80%;
     }
     .wildlife{
-        width: 60%;
+        width: 90%;
     }
     .random{
-        width: 60% ;
+        width: 100% ;
     }
     .copyright p{
         font-size: 1.2em;
@@ -210,5 +216,27 @@ p{
         letter-spacing: .1em;
         font-size: .5rem;
         text-decoration: none;
+    }
+    .bird{
+        width: 90%;
+        /* justify-content: flex-start; */
+    }
+    .portrait{
+        width: 85%;
+    }
+    .nature{
+        width: 85%;
+    }
+    .bw{
+        width: 80%;
+    }
+    .monument{
+        width: 80%;
+    }
+    .wildlife{
+        width: 90%;
+    }
+    .random{
+        width: 100% ;
     }
 }
