@@ -39,8 +39,8 @@ body{
 
 @media(max-width: 998px){
     .content img{
-        width: 70%;
-        margin-top: 10%;
+        width: 100%;
+        margin-top: 18%;
     }
     .back>a{
         font-size: small;
