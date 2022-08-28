@@ -43,7 +43,9 @@ app.post("/contact",async(req,res)=>{
         res.status(500).send(error)
     }
 })
-
+app.get("/event",(req,res)=>{
+    res.render('event.hbs');
+})
 app.get("/bird",(req,res)=>{
     res.render('bird.hbs');
 })
@@ -68,6 +70,9 @@ app.get("/BW",(req,res)=>{
 })
 app.get("/random",(req,res)=>{
     res.render('random.hbs');
+})
+app.get("/event",(req,res)=>{
+    res.render('event.hbs');
 })
 
 app.listen(port,()=>{
