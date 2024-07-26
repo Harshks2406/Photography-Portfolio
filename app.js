@@ -74,7 +74,7 @@ app.get("/random",(req,res)=>{
 app.get("/event",(req,res)=>{
     res.render('event.hbs');
 })
-
+// test
 app.listen(port,()=>{
     console.log(`Server started on http://localhost:${port}`);
 })
